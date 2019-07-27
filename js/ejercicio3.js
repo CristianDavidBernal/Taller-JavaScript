@@ -21,12 +21,17 @@
  });
 
 // Prueba (No modificar!)
-
+function dupliContenido(){
 if (array.length === 3 &&
     array[0] === 4 &&
     array[1] === 6 &&
     array[2] === 8) {
   console.log('Ejercicio 3 paso el test!');
+  document.getElementById('valor_a').innerHTML = array.length;
+  document.getElementById('valor_b').innerHTML = array[0];
+  document.getElementById('valor_c').innerHTML = array[1];
+  document.getElementById('valor_d').innerHTML = array[2];
 } else {
   console.log('Ejercicio 3 no paso el test!');
+}
 }

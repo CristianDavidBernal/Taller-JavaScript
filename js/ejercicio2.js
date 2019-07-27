@@ -64,11 +64,17 @@ let personas2 = [persona1, persona3];
 let personas3 = [persona1, persona2, persona3];
 let personas4 = [persona3, persona4];
 
+function cCabello(){
 if (colorCabello(personas1) === 'Rubio' &&
     colorCabello(personas2) === 'Rubio' &&
     colorCabello(personas3) === 'Cafe Oscuro' &&
 	colorCabello(personas4) === 'Azul') {
   console.log('Ejercicio 2 paso el test!');
+  document.getElementById('valor_a').innerHTML = colorCabello(personas1);
+  document.getElementById('valor_b').innerHTML = colorCabello(personas2);
+  document.getElementById('valor_c').innerHTML = colorCabello(personas3);
+  document.getElementById('valor_d').innerHTML = colorCabello(personas4);
 } else {
   console.log('Ejercicio 2 no paso el test!');
+}
 }

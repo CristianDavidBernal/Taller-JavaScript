@@ -1,11 +1,133 @@
-<!DOCTYPE HTML>
-<html>
   <head>
-    <title>Ejercicios JavaScript</title>
-    <script src="ejercicio1.js"></script>
-    <script src="ejercicio2.js"></script>
-    <script src="ejercicio3.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Taller2</title> 
+    <script src="js/ejercicio1.js"></script>
+    <script src="js/ejercicio2.js"></script>
+    <script src="js/ejercicio3.js"></script>
   </head>
   <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: green">
+      <a class="navbar-brand" href="#">
+        
+        Taller 2
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="# ">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Proximamente
+              </a>
+             
+            </li>
+      
+         
+                     
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscador" aria-label="Search">
+          <button class="btn btn-warning my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+
+   
+<!--botones -->
+<section id="botones">
+    <div class="contenido-seccion">
+          <div class="container">
+             
+             <!-- inicio tabla -->
+  <div class="container my-5 text-center">
+      <button onclick="Sumar()" type="button" class="btn btn-success btn-lg" >Ejercicio1</button>
+      <button onclick="cCabello()" type="button" class="btn btn-success btn-lg" >Ejercicio2</button>
+      <button onclick="dupliContenido()" type="button" class="btn btn-success btn-lg" >Ejercicio3</button>
+      <div class="mt-5">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th scope="col">Valor</th>
+                      
+                     
+                  </tr>
+              </thead>
+              <tbody>
+              <td id="valor_a"></td>
+              <td id="valor_b"></td>
+              <td id="valor_c"></td>
+              <td id="valor_d"> </td>
+            </tbody>
+                  
+              
+          </table>
+      </div>
+  </div>
+
+ 
+   <!-- fin tabla -->
+          </div>        
+    </div>
+  </section>
+  <!--Fin Seccion botones-->
+      
+      
+    
+
+    <!--footer-->
+     <div id="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+                <p>Creado por Cristian Bernal</p>
+                <p>Desarrollado con <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            </div>
+
+            <div class="col-sm-3">
+              <ul class="list-unstyled">
+                  <li><a href="">Inicio</a></li>
+                  <li><a href="">Acerca de</a></li>
+                  
+              </ul>
+          </div>
+
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Twiter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+           </div>
+
+           <div class="col-sm-3">
+                <p>Info</p>
+                <p>Comunicate por la linea 018000-2030040-399299387-3299399494949992939392-3029294848289293923-202020</p>
+           </div>
+          </div>
+        </div>
+    </div>
+    <!-- fin footer-->
+
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
